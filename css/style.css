@@ -1,0 +1,40 @@
+.container-columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem 20%;
+}
+.imagem-celular{
+    width: 100%;
+    height: 85%;
+}
+.div__form{
+    margin: 1.5rem;
+}
+.section__form{
+    text-align: center;
+    border: 1px solid;
+    height: 20rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.input__form{
+    margin: 0 10%;
+    height: 1.5rem;
+    color: gray;
+}
+.input__form--submit{
+    margin: 0 10%;
+    height: 1.5rem;
+    color: white;
+    background-color: blue;
+}
+.imagem-facebook{
+    width: 1rem;
+    height: 1rem;
+}
+.section__facebook{
+    display: flex;
+    margin: 0 25%;
+}
