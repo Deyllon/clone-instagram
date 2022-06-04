@@ -3,6 +3,13 @@
     grid-template-columns: 1fr 1fr;
     margin: 1rem 20%;
 }
+.title__form{
+    margin: 2rem 0;
+    font-family: 'Gentium Plus', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
 .imagem-celular{
     width: 100%;
     height: 85%;
@@ -12,23 +19,38 @@
 }
 .section__form{
     text-align: center;
-    border: 1px solid;
-    height: 20rem;
+    border: 1px solid #dbdbdb;
+    height: 22rem;
 }
 .form{
     display: flex;
     flex-direction: column;
 }
 .input__form{
-    margin: 0 10%;
-    height: 1.5rem;
+    margin: 0.2rem 10%;
+    height: 2rem;
     color: gray;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    background-color: #F0F4F5;
+    font-size: 0.6rem;
+    padding-left: 0.5rem;
+}
+.input__form:focus{
+    outline: none;
 }
 .input__form--submit{
-    margin: 0 10%;
+    margin: 1rem 10%;
     height: 1.5rem;
     color: white;
-    background-color: blue;
+    background-color: #73C2FB;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+}
+.input__form--submit:hover{
+    cursor: pointer;
 }
 .imagem-facebook{
     width: 1rem;
@@ -37,4 +59,67 @@
 .section__facebook{
     display: flex;
     margin: 0 25%;
+}
+.ancoragem__facebook{
+    text-decoration: none;
+    margin: 0 0.3rem;
+}
+.section__forgot{
+    margin: 1rem 0;
+}
+.ancoragem__forgot{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+}
+.section__style{
+    display: flex;
+    text-align: center;
+    margin: 1rem 10%;
+}
+.div__style{
+    display: flex;
+    border: 0.5px solid #dbdbdb;
+    border-radius: 5px;
+    height: 0;
+    background-color: rgba(-b38,219,219,219,1);
+    width: 100%;
+    margin: 0.5rem 0;
+}
+.p__style{
+    margin: 0 0.5rem;
+}
+.section__signup{
+    border: 1px solid #dbdbdb;
+    margin: 1rem 0;
+    padding: 1rem;
+    display: flex;
+    font-size: 0.9rem;
+}
+.p__signup{
+    margin-left: 3rem;
+}
+.ancoragem__signup{
+    text-decoration: none;
+    margin-left: 0.2rem;
+    font-weight: bold;
+}
+.p__app{
+    text-align: center;
+}
+.style{
+    background-color: rgba(--d87,255,255,255,1,);
+    color: rgba(i1d,38,38,38,1);
+}
+.loja{
+    height: 2rem;
+    width: 2rem;
+    margin: 0rem 1rem;
+}
+.loja:hover{
+    cursor: pointer;
+}
+.section__loja{
+    text-align: center;
+    margin: 1rem 0;
 }
