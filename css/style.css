@@ -58,7 +58,7 @@
 }
 .section__facebook{
     display: flex;
-    margin: 0 25%;
+    justify-content: center;
 }
 .ancoragem__facebook{
     text-decoration: none;
@@ -95,9 +95,9 @@
     padding: 1rem;
     display: flex;
     font-size: 0.9rem;
+    justify-content: center;
 }
 .p__signup{
-    margin-left: 3rem;
 }
 .ancoragem__signup{
     text-decoration: none;
@@ -122,4 +122,79 @@
 .section__loja{
     text-align: center;
     margin: 1rem 0;
+}
+
+@media (max-width: 767px) {
+    .container-columns{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: none;
+        margin: 0;
+    }
+    .div__celular{
+        display: none;
+    }
+    .div__form{
+        margin: 1rem 0.5rem;
+    }
+    .section__form{
+        border: 0;
+    }
+    .input__form{
+        margin: 0.2rem 15%;
+    }
+    .input__form--submit{
+        margin: 1rem 15%;
+    }
+    .section__facebook{
+        justify-content: center;
+    }
+    .section__signup{
+        border: 0;
+    }
+    .p__signup{
+        margin-left: 0;
+    }
+    .ancoragem__signup{
+        margin-left: 0.5rem;
+    }
+    .p__app{
+        margin: 2rem 0;
+    }
+    .loja{
+        margin: 0 2rem;
+    }
+    .section__style{
+        justify-content: center;
+        margin: 1rem 15%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container-columns{
+        display: flex;
+        flex-direction: column;
+    }
+    .div__celular{
+        display: none;
+    }
+    .section__form{
+        border: 0;
+    }
+    .section__signup{
+        border: 0;
+        font-size: 1.5rem;
+    }
+    .imagem-facebook{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .section__facebook{
+        font-size: 1.5rem;
+    }
+    .p__app{
+        font-size: 1.5rem;
+    }
+    .ancoragem__forgot{
+        font-size: 1.5rem;
+    }
 }
